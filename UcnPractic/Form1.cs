@@ -77,7 +77,7 @@ namespace UcnPractic
             string selectedRoute = comboReis.SelectedItem.ToString();
             if (selectedRoute == "Екатеринбург >Санкт-Петербург")
             {
-                totalCost += 1500;
+                totalCost += 2000;
             }
             else if (selectedRoute == "Москва > Красноярск" || selectedRoute == "Екатеринбург > Варшава")
             {
@@ -85,11 +85,11 @@ namespace UcnPractic
             }
             else if (selectedRoute == "Санкт-Петербург > Стамбул")
             {
-                totalCost += 3000;
+                totalCost += 5000;
             }
             else if (selectedRoute == "Новосибирск > Дубаи")
             {
-                totalCost += 3200;
+                totalCost += 10000;
             }
 
             // Проверка выбранных опций
@@ -110,7 +110,7 @@ namespace UcnPractic
             string selectedClass = BoxKlass.SelectedItem.ToString();
             if (selectedClass == "Комфорт")
             {
-                totalCost += 300;
+                totalCost += 500;
             }
             else if (selectedClass == "Бизнес")
             {
